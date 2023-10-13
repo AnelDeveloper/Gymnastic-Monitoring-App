@@ -3,7 +3,7 @@ Bornfight Task: Creating 1 Page with table and with functionality to create a ne
 
 #HOW TO START: 
 
-cd to gym-app
-npm install in terminal
+cd to gym-app, 
+npm install in terminal,
 npm start 
 
