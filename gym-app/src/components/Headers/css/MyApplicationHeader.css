@@ -1,0 +1,50 @@
+.header-application {
+    display: flex;
+    justify-content: space-between; /* This will push the text to the left and the buttons to the right */
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    border-bottom: 0.05px solid #bfbfbf; /* This adds the underline */
+    padding-bottom: 10px; 
+}
+
+.header-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 10px; /* This will add space between the two buttons */
+}
+.header-buttons .button.is-primary {
+    font-weight: 800;
+    background-color: #FF2B51;
+    border-color: transparent;
+    color: #ffffff;  /* Assuming you want white text, adjust if needed */
+}
+
+.header-buttons .button.is-info {
+    background-color: #EEF1F4;
+    border-color: transparent;
+    color: #333333;  
+    font-weight: 800;
+    display: flex;
+    align-items: center; /* Centers items vertically */
+    justify-content: center; /* Centers items horizontally */
+}
+
+.green-dot {
+    width: 12px;
+    height: 12px;
+    background-color: #27C200;
+    border-radius: 50%;
+    margin-right: 10px;  /* Space between the green dot and the "Open" text */
+}
+
+.header-text {
+    font-weight: bold;
+    color: black;
+    font-size: 34px;
+}
+

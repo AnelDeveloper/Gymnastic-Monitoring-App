@@ -1,0 +1,266 @@
+
+
+
+
+
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%; /* You can adjust the width as needed */
+    max-width: 640px; /* Setting a max width */
+    width: 640px;
+    padding-left: 43px;
+    padding-right: 63px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+ /* Modal overlay */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure the modal is on top of other content */
+  }
+  
+
+  
+  .modal-content label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .modal-content input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+   /* Form styles within the modal */
+   .modal-content form div {
+    margin-bottom: 10px;
+  }
+
+h4 {
+    font-weight: bold; 
+    font-size: 24px;  
+    margin-bottom: 20px;
+}
+
+.flex-row-first{
+    gap:0.5rem;
+    display: flex;
+    margin-bottom: 20px; 
+}
+.flex-row-second{
+    gap:1rem;
+    display: flex;
+    margin-bottom: 20px; 
+}
+.flex-row-third{
+    gap:1rem;
+    display: flex;
+    margin-bottom: 20px; 
+}
+
+.flex-column, .flex-column-fullwidth {
+    display: flex;
+    flex-direction: column;
+}
+.phone-input-container {
+    position: relative;
+    width: 100%;
+}
+
+.phone-placeholder {
+    position: absolute;
+    left: 5px; /* Adjust this based on your design */
+    top: 50%;
+    padding-left: 45px;
+    font-size: 14px;
+    transform: translateY(-50%);
+    color: #a9a9a9; /* This is a light grey. Adjust as needed */
+    pointer-events: none; /* This ensures the span won't interfere with clicks on the input */
+}
+
+
+
+.wide-dropdown {
+    
+    height: 36px;
+    padding-right: 135px;
+    border: 1px solid #D6D5DC; /* This line adds a grey border */
+
+
+}
+
+.form-label {
+    color: #38354D;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.date-of-birth {
+    color: #B2B2B8;
+    height: 36px;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    border: 1px solid #D6D5DC; /* This line adds a grey border */
+}
+
+
+.btn-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px; 
+}
+
+.text-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+
+.firstName{
+    text-align: left;;
+    padding-right: 70px !important;
+    line-height: 20px;
+
+}
+
+.firstName::placeholder{
+    font-family: 'Inter', sans-serif;
+
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0px;
+
+}
+
+
+.lastName{
+    text-align: left;;
+    padding-right: 70px !important;
+    line-height: 20px;
+
+}
+.lastName::placeholder{
+    font-family: 'Inter', sans-serif; /* Fallback to a generic sans-serif font if Inter doesn't load */
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+
+.club::placeholder{
+
+    font-family: 'Inter', sans-serif; /* Fallback to a generic sans-serif font if Inter doesn't load */
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0px;
+ 
+}
+.club{
+  
+    line-height: 20px;
+    text-align: left;;
+
+    padding-right: 115px !important;
+
+}
+
+.team::placeholder{
+
+    font-family: 'Inter', sans-serif; /* Fallback to a generic sans-serif font if Inter doesn't load */
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0px;
+ 
+}
+.team{
+    line-height: 20px;
+    text-align: left;
+    padding-right: 105px !important;
+}
+.phone{
+
+    width: 33% !important;
+    
+}
+
+.button-area {
+    width: 100%;
+}
+
+.rectangle {
+    width: 100%;
+    height: 1px;
+    background-color: #D6D5DC;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.lower-btn-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin: 0px !important;
+}
+
+
+/* Button styles within the modal */
+.modal-content button {
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    height: 43px;
+    width: 87px;
+  }
+  
+  
+
+  .modal-content button:hover {
+    opacity: 0.8;
+  }
+  
+  .text-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #38354D;
+    font: inter;
+    margin-right: 10px;
+    text-decoration: underline;  
+}
+
+.modal-content button {
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px; 
+}
+
+.modal-content button[type="submit"] {
+    background-color: #FF2B51;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;    
+    font-size: 16px;         
+}
+

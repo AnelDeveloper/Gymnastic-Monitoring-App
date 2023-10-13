@@ -1,0 +1,54 @@
+.navbar-brand .navbar-item img {
+    margin-left: 20px; /* Right margin for logo */
+}
+
+.navbar {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Bottom shadow */
+    padding: 6px;
+
+}
+
+
+.navbar-start .navbar-item {
+    color: black;
+    font-size: 20px;
+    font-weight: bold; /* Make the competition name bold */
+}
+
+.navbar-end .user-name {
+    margin-right: 10px; /* Space between user name and profile picture */
+}
+
+.navbar-end .profile-picture img {
+    width: 40px;  /* Adjust width of profile picture */
+    height: 40px; /* Adjust height of profile picture */
+    border-radius: 50%; 
+}
+
+/* Making the admin picture and "John Doe" closer */
+.navbar-end .navbar-item {
+    padding-left: 10px; /* adjust or remove the left margin */
+    padding-right: 0; /* adjust or remove the right margin */
+}
+
+/* Adjusting margins for the navbar */
+.navbar-start .navbar-item {
+    padding-left: 20px;  /* Adjust the value based on your requirement */
+}
+
+.dot {
+    margin: 0 5px; /* Adjust this value if you want more or less space around the dot */
+    color: #72747E; /* Same color as the Date for consistency */
+}
+
+.date-color {
+    color: #72747E;
+    font-weight: 400;
+}
+
+.competition-date{
+    font-size: 18px;
+}
+.navbar-end {
+    padding-right: 32px;
+}

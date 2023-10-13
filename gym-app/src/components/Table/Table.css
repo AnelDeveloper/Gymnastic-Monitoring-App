@@ -1,0 +1,212 @@
+
+.table.custom-border {
+    border-collapse: separate;
+    border: 1px solid #dbdbdb;
+    border-radius: 20px;
+    background-color: white; 
+    overflow: hidden;  
+ 
+
+    
+
+}
+
+
+
+
+
+.table.custom-border th:first-child::before {
+    content: "";
+    display: inline-block;
+    width: 180px; /* Adjust accordingly */
+}
+
+
+.table.custom-border th,
+.table.custom-border td {
+    border: none; 
+
+}
+
+
+
+.country-flag{
+    margin-right: 5px;
+}
+
+.table.custom-border tr:first-child {
+    background-color: #EAE9EF;
+    height: 60px; 
+}
+
+.table.custom-border th {
+    vertical-align: middle;
+}
+
+.table.custom-border td, 
+.table.custom-border th {
+}
+
+
+.table.custom-border tbody tr:nth-child(odd) {
+    background-color:#FAFAFA;
+
+}
+
+.table.custom-border tbody tr:nth-child(even) {
+    background-color: white;
+}
+
+
+
+
+
+  .dateOfBirth {
+    display: block;
+    margin-top: 5px;
+    font-size: 0.9em;
+    color: grey;
+  }
+  
+  .arrow {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid black;
+    cursor: pointer;
+    z-index: 9;
+    position: inherit;
+
+  }
+  
+  .arrow.up {
+    border-bottom: none;
+    border-top: 5px solid black;
+  }
+
+  
+
+  .status-box {
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: white; 
+    font-weight: bold;
+  }
+  
+  .status-applied {
+    background-color: #27C200;
+    text-transform: uppercase;
+    font-size: 8px;
+
+  }
+  
+  .status-declined {
+    background-color: #EA1A40;
+    text-transform: uppercase;
+    font-size: 8px;
+
+
+  }
+ 
+  .status-canceled {
+    color:  #6C6A7D;
+    background-color:#EFEFF1;
+    font-size: 8px;
+
+    text-transform: uppercase;
+
+  }
+
+ 
+  
+  .status-awaiting-response {
+    background-color:#FFB800;
+    color: rgb(255, 255, 255); 
+    font-size: 8px;
+    text-wrap: nowrap;
+
+    text-transform: uppercase;
+
+  }
+  .column-discipline{
+    text-wrap: nowrap;
+
+  }
+  
+  .rectangle-line{
+    border-top: 1px solid #D9D9D9;
+    width: 72%;
+    position: absolute;
+    margin-top: 1.75%;
+  }
+  .table td:last-child{
+    overflow-x: hidden;
+  }
+  .table, .table tr{
+    overflow-x: hidden;
+    position: relative;
+  }
+  .table td:last-child::after {
+    content: ""; 
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    top: 0;
+    bottom: 0;
+    background-color:transparent;
+  }
+
+  .table .date-column{
+    padding-right: 0;
+    text-align: right;
+    text-wrap: nowrap;
+  }
+  .table .column-category, .table .column-team{
+    text-wrap: nowrap;
+  }
+  .collap{
+    position: absolute;
+    padding-top: 30px;
+    
+  }
+
+
+  .column-program{
+    width: 15%;
+    text-wrap: nowrap;
+  }
+  .expandable-container {
+    height: 50px; /* default height */
+    transition: height 0.2s ease-out;
+  }
+  
+  .expandable-container.expanded {
+    height: 120px; /* adjust based on your content and desired space */
+  }
+  
+
+  .column-arrow {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 90px;
+    text-wrap: nowrap;
+
+
+}
+.arrow-text {
+    margin-right: 15px !important; /* adjust as needed for spacing */
+    color: #FF2B51;
+    text-decoration: underline;
+
+}
+  .collap-row {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  
+
+

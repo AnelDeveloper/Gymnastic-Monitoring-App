@@ -1,0 +1,130 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; 
+    width: 100%;
+}
+
+.table-container {
+    width: 100%;  
+}
+
+.search-container input[type="text"] {
+    margin-bottom: 30px;
+
+    width: 238px; 
+    max-width: 100%; 
+    font-size: 20px;  
+    transition: all 0.3s; 
+    height: 38px;
+}
+
+.search-container input[type="text"]::placeholder {
+    font-size: 20px; 
+    padding: 8px 36px;
+}
+
+@media (max-width: 768px) {
+    .search-container input[type="text"] {
+        width: 100%; 
+    }
+}
+
+
+.requests-title {
+    font-size: 24px; 
+    margin-bottom: 15px; 
+}
+
+.search-container input[type="text"] {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 24px;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column; 
+    align-items: center;
+}
+
+
+.requests-title {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+/* ApplicationComponent.css */
+.no-data-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    height: 300px; /* adjust as needed */
+}
+
+.no-data-container img {
+    margin-bottom: 10px;
+}
+.add-gym{
+    background: #FF842B;
+    color: white;
+
+}
+
+/* ApplicationComponent.css */
+
+.no-data-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px; /* Adding some padding around */
+}
+
+.no-data-container img {
+    margin-bottom: 20px; /* Adding some space below the ghost image */
+}
+
+.no-data-container p {
+    margin: 10px 0; /* Giving space between paragraphs */
+}
+
+.no-data-container p:first-child {
+    font-weight: bold;
+    font-size: 1.5em; /* Making the "No applications yet" font bigger */
+}
+
+.button {
+    margin-top: 15px; /* Spacing above the button */
+}
+
+.search-filter-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 50%; 
+}
+
+.search-component {
+    
+    
+    flex: 1;  /* This allows it to take up the available space, making it responsive */
+    margin-right: 20px; /* spacing between search and filter */
+}
+
+.filter-component {
+    margin-top: 10px !important;
+    flex: 2;  /* Adjust this if you need the filter section to be wider than the search */
+}

@@ -1,0 +1,26 @@
+.filters-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px; 
+    width: 100%;
+}
+
+.filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 23%;
+    margin: 10px;
+}
+
+
+
+.filter-value {
+    padding: 5px 25px 5px 5px;  /* Add padding on the right to make space for the arrow image */
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    background: url('/public/assets/images/arrow/ic_Arrow.png') no-repeat right center; /* Replace with your arrow image's path */
+    align-items: center;
+}
