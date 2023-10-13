@@ -65,14 +65,13 @@
 }
 
 
-/* ApplicationComponent.css */
 .no-data-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: 150px;
-    height: 300px; /* adjust as needed */
+    height: 300px; 
 }
 
 .no-data-container img {
@@ -84,30 +83,30 @@
 
 }
 
-/* ApplicationComponent.css */
+
 
 .no-data-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px; /* Adding some padding around */
+    padding: 20px; 
 }
 
 .no-data-container img {
-    margin-bottom: 20px; /* Adding some space below the ghost image */
+    margin-bottom: 20px; 
 }
 
 .no-data-container p {
-    margin: 10px 0; /* Giving space between paragraphs */
+    margin: 10px 0; 
 }
 
 .no-data-container p:first-child {
     font-weight: bold;
-    font-size: 1.5em; /* Making the "No applications yet" font bigger */
+    font-size: 1.5em; 
 }
 
 .button {
-    margin-top: 15px; /* Spacing above the button */
+    margin-top: 15px; 
 }
 
 .search-filter-container {
@@ -120,11 +119,11 @@
 .search-component {
     
     
-    flex: 1;  /* This allows it to take up the available space, making it responsive */
-    margin-right: 20px; /* spacing between search and filter */
+    flex: 1;  
+    margin-right: 20px; 
 }
 
 .filter-component {
     margin-top: 10px !important;
-    flex: 2;  /* Adjust this if you need the filter section to be wider than the search */
+    flex: 2;  
 }

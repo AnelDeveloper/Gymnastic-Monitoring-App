@@ -18,7 +18,7 @@
 .table.custom-border th:first-child::before {
     content: "";
     display: inline-block;
-    width: 180px; /* Adjust accordingly */
+    width: 180px; 
 }
 
 
@@ -43,9 +43,6 @@
     vertical-align: middle;
 }
 
-.table.custom-border td, 
-.table.custom-border th {
-}
 
 
 .table.custom-border tbody tr:nth-child(odd) {
@@ -178,12 +175,12 @@
     text-wrap: nowrap;
   }
   .expandable-container {
-    height: 50px; /* default height */
+    height: 50px; 
     transition: height 0.2s ease-out;
   }
   
   .expandable-container.expanded {
-    height: 120px; /* adjust based on your content and desired space */
+    height: 120px; 
   }
   
 
@@ -197,7 +194,7 @@
 
 }
 .arrow-text {
-    margin-right: 15px !important; /* adjust as needed for spacing */
+    margin-right: 15px !important; 
     color: #FF2B51;
     text-decoration: underline;
 

@@ -12,7 +12,7 @@
     padding: 7.5px!important;
     display: flex;
     padding-right: 17px !important;
-    align-items: center; /* Centers items vertically */
+    align-items: center; 
     justify-content: space-between; 
 }
 .selected-option, .option {

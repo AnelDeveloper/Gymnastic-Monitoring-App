@@ -4,10 +4,10 @@ import textData from '../../utilis/data/text.json';
 import  Form  from '../Form/Form';
 
 const MyApplicationHeader = () => {
-    const [isModalOpen, setModalOpen] = useState(false); // state to control modal visibility
+    const [isModalOpen, setModalOpen] = useState(false); 
 
     const clickNewApplication = () => {
-        setModalOpen(!isModalOpen); // toggle modal visibility
+        setModalOpen(!isModalOpen); 
     }
 
     const handleSubmit = (event) => {
